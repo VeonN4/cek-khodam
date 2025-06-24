@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.khodam-result {
+  border-radius: 5px;
+  background-color: #e4e4e4;
+  padding: 30px 0px;
+  width: 200px;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.credit {
+  position: fixed;
+  top: 97vh
+}
+
+.timelapse {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+#check-khodam {
+  font-weight: 500;
+  border: solid 2px #cccccc;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 10px 50px;
+}
+
+#check-khodam:hover {
+  background: #e4e4e4;
+}
